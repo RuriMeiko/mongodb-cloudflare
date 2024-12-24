@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist", // Thư mục đầu ra
+		"rootDir": "./src", // Thư mục mã nguồn
+    "declaration": true,         // Xuất file .d.ts (type declarations)
+		"target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+		"module": "commonjs" /* Specify what module code is generated. */,
+		"esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+		"forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+		"strict": true /* Enable all strict type-checking options. */,
+		"skipLibCheck": true /* Skip type checking all .d.ts files. */
+	},
+	"include": ["src"], // Các file cần build
+	"exclude": ["node_modules"] // Loại trừ thư mục
+}

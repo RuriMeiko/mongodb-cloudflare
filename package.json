@@ -1,0 +1,22 @@
+{
+	"name": "mongodb-cloudflare",
+	"version": "1.0.1",
+	"description": "",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RuriMeiko/mongodb-cloudflare.git"
+	},
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"prepare": "npm run build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^22.10.2",
+		"typescript": "^5.7.2"
+	}
+}
